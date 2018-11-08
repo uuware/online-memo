@@ -1,0 +1,11 @@
+1, download Xampp and run it in your OS
+2, unzip memo.zip to webroot of Xampp
+3, change memo\inc\config.php to your environment
+	'DBTYPE' => 'mysql',
+	'DBHOST' => 'localhost',
+	'DBNAME' => 'db-memo',
+	'DBUSER' => 'root',
+	'DBPASS' => '****',
+4, run SQL Client to create database:db-memo
+   and copy SQL from db.sql to create tables
+5, enjoy http://localhost/memo/
